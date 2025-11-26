@@ -4,3 +4,4 @@ model: PowerEdge FC630
 slug: dell-poweredge-fc630
 u_height: 2
 is_full_depth: false
+subdevice_role: child
