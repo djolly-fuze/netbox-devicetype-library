@@ -1,0 +1,29 @@
+---
+manufacturer: Dell
+model: PowerEdge FX2
+slug: dell-poweredge-fx2
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+device-bays:
+  - name: Bay 1
+  - name: Bay 2
+  - name: Bay 3
+  - name: Bay 4
+  - name: Bay 5
+  - name: Bay 6
+  - name: Bay 7
+  - name: Bay 8
+module-bays:
+  - name: IO A
+    label: IO A
+    position: A
+    description: Rear I/O module bay A. Occupied by pass-through or FN I/O modules (FN410s/FN410t/FN2210s).
+  - name: IO B
+    label: IO B
+    position: B
+    description: Rear I/O module bay B. Occupied by pass-through or FN I/O modules.
+  - name: IO C
+    label: IO C
+    position: C
+    description: Rear I/O module bay C. Optional depending on chosen I/O module configuration.
