@@ -1,0 +1,61 @@
+---
+manufacturer: NetApp
+model: AFF-A220
+slug: netapp-aff-a220
+description: AFF A220 FAS
+part_number: AFF-A220
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: IOIOI 1
+    type: rj-45
+  - name: IOIOI 2
+    type: rj-45
+interfaces:
+  - name: 1/e0M
+    type: 1000base-t
+    mgmt_only: true
+  - name: 2/e0M
+    type: 1000base-t
+    mgmt_only: true
+  - name: 1/e0a
+    type: 10gbase-x
+    description: can operate as 10GbE or 16Gb FC (FCoE capable)
+  - name: 1/e0b
+    type: 10gbase-x
+    description: can operate as 10GbE or 16Gb FC (FCoE capable)
+  - name: 1/e0c
+    type: 10gbase-x
+    description: can operate as 10GbE or 16Gb FC (FCoE capable)
+  - name: 1/e0d
+    type: 10gbase-x
+    description: can operate as 10GbE or 16Gb FC (FCoE capable)
+  - name: 1/e0e
+    type: 10gbase-x
+    description: can operate as 10GbE or 16Gb FC (FCoE capable)
+  - name: 1/e0f
+    type: 10gbase-x
+    description: can operate as 10GbE or 16Gb FC (FCoE capable)
+  - name: 2/e0a
+    type: 10gbase-x
+    description: can operate as 10GbE or 16Gb FC (FCoE capable)
+  - name: 2/e0b
+    type: 10gbase-x
+    description: can operate as 10GbE or 16Gb FC (FCoE capable)
+  - name: 2/e0c
+    type: 10gbase-x
+    description: can operate as 10GbE or 16Gb FC (FCoE capable)
+  - name: 2/e0d
+    type: 10gbase-x
+    description: can operate as 10GbE or 16Gb FC (FCoE capable)
+  - name: 2/e0e
+    type: 10gbase-x
+    description: can operate as 10GbE or 16Gb FC (FCoE capable)
+  - name: 2/e0f
+    type: 10gbase-x
+    description: can operate as 10GbE or 16Gb FC (FCoE capable)
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+  - name: Power 2
+    type: iec-60320-c14
