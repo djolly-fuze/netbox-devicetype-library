@@ -2,6 +2,7 @@
 manufacturer: Dell
 model: PowerEdge R7415
 slug: dell-poweredge-r7415
+comments: Details sourced from https://i.dell.com/sites/csdocuments/Shared-Content_data-Sheets_Documents/en/poweredge-r7415-spec-sheet-en.pdf
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear
