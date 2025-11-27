@@ -1,0 +1,59 @@
+---
+manufacturer: Citrix
+model: MPX-14000
+slug: citrix-mpx-14000
+u_height: 2
+is_full_depth: true
+comments: '[Hardware Information](https://docs.netscaler.com/en-us/netscaler-hardware-platforms/mpx/netscaler-hardware-platforms/mpx-14020-14030-14040-14060-14080-14100.html)'
+console-ports:
+  - name: Console
+    type: de-9
+power-ports:
+  - name: PS 1
+    type: iec-60320-c14
+    maximum_draw: 450
+  - name: PS 2
+    type: iec-60320-c14
+    maximum_draw: 450
+interfaces:
+  - name: Interface 0/1
+    type: 1000base-t
+    mgmt_only: true
+  - name: Interface 0/2
+    type: 1000base-t
+    mgmt_only: true
+  - name: Interface 10/1
+    type: 10gbase-x-sfpp
+  - name: Interface 10/2
+    type: 10gbase-x-sfpp
+  - name: Interface 10/3
+    type: 10gbase-x-sfpp
+  - name: Interface 10/4
+    type: 10gbase-x-sfpp
+  - name: Interface 10/5
+    type: 10gbase-x-sfpp
+  - name: Interface 10/6
+    type: 10gbase-x-sfpp
+  - name: Interface 10/7
+    type: 10gbase-x-sfpp
+  - name: Interface 10/8
+    type: 10gbase-x-sfpp
+  - name: Interface 10/9
+    type: 10gbase-x-sfpp
+  - name: Interface 10/10
+    type: 10gbase-x-sfpp
+  - name: Interface 10/11
+    type: 10gbase-x-sfpp
+  - name: Interface 10/12
+    type: 10gbase-x-sfpp
+  - name: Interface 10/13
+    type: 10gbase-x-sfpp
+  - name: Interface 10/14
+    type: 10gbase-x-sfpp
+  - name: Interface 10/15
+    type: 10gbase-x-sfpp
+  - name: Interface 10/16
+    type: 10gbase-x-sfpp
+  - name: LOM
+    type: 100base-t
+    mgmt_only: true
