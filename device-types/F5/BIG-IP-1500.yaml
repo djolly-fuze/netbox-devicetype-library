@@ -1,0 +1,34 @@
+---
+manufacturer: F5
+model: BIG-IP 1500
+slug: f5-big-ip-1500
+part_number: '1500'
+u_height: 1
+is_full_depth: true
+airflow: front-to-rear
+weight: 19
+weight_unit: lb
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+interfaces:
+  - name: mgmt
+    type: 1000base-t
+    mgmt_only: true
+  - name: '1.1'
+    type: 1000base-t
+  - name: '1.2'
+    type: 1000base-t
+  - name: '1.3'
+    type: 1000base-t
+  - name: '1.4'
+    type: 1000base-t
+  - name: '2.1'
+    type: 1000base-x-sfp
+  - name: '2.2'
+    type: 1000base-x-sfp
