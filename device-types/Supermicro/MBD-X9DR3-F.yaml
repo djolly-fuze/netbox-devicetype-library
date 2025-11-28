@@ -1,0 +1,22 @@
+---
+manufacturer: Supermicro
+model: Motherboard X9DR3-F
+slug: supermicro-mbd-x9dr3-f
+part_number: MBD-X9DR3-F
+u_height: 0
+is_full_depth: true
+airflow: front-to-rear
+comments: Supermicro motherboard X9DR3-F (https://www.supermicro.com/QuickRefs/motherboard/C606_602/QRG-1259.pdf)
+subdevice_role: child
+console-ports:
+  - name: COM1
+    type: de-9
+    label: Rear
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
