@@ -1,0 +1,22 @@
+---
+manufacturer: Supermicro
+model: Motherboard X10DRH
+slug: supermicro-mbd-x10drh
+part_number: MBD-X10DRH
+u_height: 0
+is_full_depth: true
+airflow: front-to-rear
+comments: Supermicro motherboard X10DRH-C (https://www.supermicro.com/en/products/motherboard/X10DRH-C)
+subdevice_role: child
+console-ports:
+  - name: COM1
+    type: de-9
+    label: Rear
+interfaces:
+  - name: BMC
+    type: 1000base-t
+    mgmt_only: true
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
